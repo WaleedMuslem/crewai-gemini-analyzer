@@ -1,0 +1,5 @@
+crewai[google-genai]
+PyPDF2
+python-dotenv
+streamlit
+markdown2
