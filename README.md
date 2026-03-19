@@ -65,27 +65,3 @@ python -m streamlit run ui/app.py
 
 Then open: `http://localhost:8501`
 
-## Common Issues
-
-### 1) `streamlit` command not recognized
-Use module invocation instead:
-
-```powershell
-python -m streamlit run ui/app.py
-```
-
-### 2) Gemini quota error (429 RESOURCE_EXHAUSTED)
-Your API key/project has no available quota. Fix by:
-
-- Enabling billing or quota for Gemini API
-- Using another API key/project with available quota
-- Retrying after the indicated cooldown time
-
-## Notes
-
-- `.env` is ignored by git for security.
-- Generated files like `temp.pdf` and `analysis_report.md` are ignored by git.
-
-## License
-
-No license specified yet.
